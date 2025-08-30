@@ -2,22 +2,22 @@
 
 This repository contains the implementation of a cost-aware movie recommendation system that integrates production budgets into traditional collaborative filtering models. Built using the MovieLens 25M dataset and The Movie Database (TMDb) budget data, the project explores the impact of incorporating budget information into recommendation algorithms, with a focus on predictive accuracy and fairness across budget tiers. The system employs both Alternating Least Squares (ALS) and Neural Collaborative Filtering (NCF) models, implemented with Apache Spark and TensorFlow, respectively.  
   
-## Table of Contents
-Project Overview (#project-overview)
-Features (#features)
-Dataset (#dataset)
-Requirements (#requirements)
-Installation (#installation)
-Project Structure (#project-structure)
-Usage (#usage)
-Methodology (#methodology)
-Results (#results)
-Fairness Analysis (#fairness-analysis)
-Future Work (#future-work)
-Contributing (#contributing)
-License (#license)
-Contact (#contact)
-
+## Table of Contents  
+Project Overview (#project-overview)  
+Features (#features)  
+Dataset (#dataset)  
+Requirements (#requirements)  
+Installation (#installation)  
+Project Structure (#project-structure)  
+Usage (#usage)  
+Methodology (#methodology)  
+Results (#results)  
+Fairness Analysis (#fairness-analysis)  
+Future Work (#future-work)  
+Contributing (#contributing)  
+License (#license)  
+Contact (#contact)  
+  
 ## Project Overview
 The goal of this project is to enhance movie recommendation systems by incorporating production budgets as a feature, aiming to balance recommendation accuracy with fairness across low-, medium-, and high-budget films. The system processes large-scale data using Spark for scalability and employs advanced machine learning techniques to model user preferences. Exploratory Data Analysis (EDA) uncovers patterns in ratings and budgets, while fairness analysis ensures equitable representation of films across budget tiers.FeaturesData Integration: Combines MovieLens 25M ratings with TMDb budgets and IMDb metadata using Spark for efficient processing.
 Exploratory Data Analysis (EDA): Analyzes distributions of ratings (mean: 3.54, right-skewed), budgets (mean: $20.5M, right-skewed), and release years (2000–2020, near-uniform).
@@ -173,6 +173,7 @@ Contact
 For questions or collaboration, reach out via:
 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/asoyewole/)
 GitHub: https://github.com/asoyewole/
+
 
 
 
