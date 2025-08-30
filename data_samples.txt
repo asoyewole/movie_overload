@@ -1,0 +1,15 @@
+Ratings sample:
+   userId  movieId  rating   timestamp
+0  277636   177765     4.0  1685470107
+1  226948        5     4.0   982427965
+2  239415    33834     3.5  1633713947
+3  145639     1474     4.0   884338404
+4   27069     4963     3.5  1094007447
+
+Movies sample:
+   movieId                                     title                         genres      budget release_date
+0     5402  Nijinsky: The Diaries of Vaslav Nijinsky    Biography,Documentary,Music         0.0   2002-04-25
+1   277158                                Alex's War  Biography,Documentary,History         0.0   2022-07-29
+2   260855                              Naked Poison                 Crime,Thriller         0.0   2000-09-23
+3    94352                              Bride Flight                  Drama,Romance   6400000.0   2008-10-15
+4   185001                             I Feel Pretty                 Comedy,Romance  32000000.0   2018-04-19

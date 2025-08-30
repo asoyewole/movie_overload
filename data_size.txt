@@ -1,0 +1,2 @@
+ratings_df: 33832162 rows, 4 columns, ~1032.48 MB
+movies_df: 50888 rows, 5 columns, ~1.94 MB

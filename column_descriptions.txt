@@ -1,0 +1,11 @@
+ratings_df:
+  userId: Unique identifier for a user (integer).
+  movieId: Unique identifier for a movie (integer), links to movies_df.
+  rating: User rating for the movie (float, 0.5 to 5.0, in 0.5 increments).
+  timestamp: Unix timestamp of when the rating was given (integer, seconds since 1970-01-01).
+merged_df:
+  movieId: Unique identifier for a movie (integer), links to ratings_df.
+  title: Movie title (string, sourced from IMDb primaryTitle).
+  genres: Pipe-separated list of genres (string, e.g., 'Action|Drama').
+  budget: Production budget in USD (float, from TMDb, may be missing).
+  release_year: Year of movie release (integer, 2000–2020, from TMDb release_date).

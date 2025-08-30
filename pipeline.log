@@ -1,0 +1,2648 @@
+2025-07-12 12:28:51,109 INFO Starting ETL pipeline.
+2025-07-12 13:25:35,796 INFO Starting ETL pipeline.
+2025-07-12 13:36:57,439 INFO Starting ETL pipeline.
+2025-07-12 13:42:47,628 INFO Starting ETL pipeline.
+2025-07-12 13:42:48,673 INFO Checked/created database movie_wh.
+2025-07-12 13:42:48,830 INFO Checked/created schema staging.
+2025-07-12 13:42:48,841 INFO Checked/created schema dw.
+2025-07-12 13:43:02,468 INFO Downloaded MovieLens data.
+2025-07-12 13:43:17,845 INFO Extracted MovieLens data.
+2025-07-12 13:43:29,794 INFO Downloaded name.basics.tsv.gz.
+2025-07-12 13:43:46,687 INFO Downloaded title.akas.tsv.gz.
+2025-07-12 13:43:55,571 INFO Downloaded title.basics.tsv.gz.
+2025-07-12 13:43:59,107 INFO Downloaded title.crew.tsv.gz.
+2025-07-12 13:44:01,479 INFO Downloaded title.episode.tsv.gz.
+2025-07-12 13:44:29,991 INFO Downloaded title.principals.tsv.gz.
+2025-07-12 13:44:31,794 INFO Downloaded title.ratings.tsv.gz.
+2025-07-12 14:59:19,355 INFO Starting ETL pipeline.
+2025-07-12 14:59:19,694 INFO Checked/created database movie_wh.
+2025-07-12 14:59:19,769 INFO Checked/created schema staging.
+2025-07-12 14:59:19,777 INFO Checked/created schema dw.
+2025-07-12 14:59:19,778 INFO Downloading MovieLens small dataset...
+2025-07-12 14:59:20,972 INFO Downloaded MovieLens small dataset.
+2025-07-12 14:59:38,044 INFO Extracted MovieLens latest dataset.
+2025-07-12 14:59:38,113 INFO Extracted MovieLens small dataset.
+2025-07-12 15:00:03,165 INFO Closing down clientserver connection
+2025-07-12 15:22:28,689 INFO Starting ETL pipeline.
+2025-07-12 15:22:28,985 INFO Checked/created database movie_wh.
+2025-07-12 15:22:29,052 INFO Checked/created schema staging.
+2025-07-12 15:22:29,054 INFO Checked/created schema dw.
+2025-07-12 15:22:41,733 INFO Extracted MovieLens latest dataset.
+2025-07-12 15:22:41,774 INFO Extracted MovieLens small dataset.
+2025-07-12 15:23:01,562 INFO Closing down clientserver connection
+2025-07-12 19:00:15,859 INFO Starting ETL pipeline.
+2025-07-12 19:00:16,020 INFO Checked/created database movie_wh.
+2025-07-12 19:00:16,073 INFO Checked/created schema staging.
+2025-07-12 19:00:16,077 INFO Checked/created schema dw.
+2025-07-12 19:00:23,451 INFO Extracted MovieLens latest dataset.
+2025-07-12 19:00:23,515 INFO Extracted MovieLens small dataset.
+2025-07-12 20:05:29,916 INFO Starting ETL pipeline.
+2025-07-12 20:05:30,072 INFO Checked/created database movie_wh.
+2025-07-12 20:05:30,129 INFO Checked/created schema staging.
+2025-07-12 20:05:30,132 INFO Checked/created schema dw.
+2025-07-12 20:05:41,210 INFO Extracted MovieLens latest dataset.
+2025-07-12 20:05:41,244 INFO Extracted MovieLens small dataset.
+2025-07-12 20:10:34,521 INFO Starting ETL pipeline.
+2025-07-12 20:10:34,797 INFO Checked/created database movie_wh.
+2025-07-12 20:10:34,845 INFO Checked/created schema staging.
+2025-07-12 20:10:34,845 INFO Checked/created schema dw.
+2025-07-12 20:10:47,131 INFO Extracted MovieLens latest dataset.
+2025-07-12 20:10:47,164 INFO Extracted MovieLens small dataset.
+2025-07-12 20:52:49,854 INFO Starting ETL pipeline.
+2025-07-12 20:52:50,012 INFO Checked/created database movie_wh.
+2025-07-12 20:52:50,054 INFO Checked/created schema staging.
+2025-07-12 20:52:50,060 INFO Checked/created schema dw.
+2025-07-12 20:53:02,305 INFO Extracted MovieLens latest dataset.
+2025-07-12 20:53:02,353 INFO Extracted MovieLens small dataset.
+2025-07-12 21:26:50,508 INFO Starting ETL pipeline.
+2025-07-12 21:26:50,746 INFO Checked/created database movie_wh.
+2025-07-12 21:26:50,823 INFO Checked/created schema staging.
+2025-07-12 21:26:50,839 INFO Checked/created schema dw.
+2025-07-12 21:27:05,659 INFO Extracted MovieLens latest dataset.
+2025-07-12 21:27:05,722 INFO Extracted MovieLens small dataset.
+2025-07-12 21:36:00,735 INFO Starting ETL pipeline.
+2025-07-12 21:36:00,884 INFO Checked/created database movie_wh.
+2025-07-12 21:36:00,953 INFO Checked/created schema staging.
+2025-07-12 21:36:00,953 INFO Checked/created schema dw.
+2025-07-12 21:36:08,464 INFO Extracted MovieLens latest dataset.
+2025-07-12 21:36:08,493 INFO Extracted MovieLens small dataset.
+2025-07-12 21:47:11,295 INFO === STARTING ETL PIPELINE ===
+2025-07-12 21:47:11,297 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:47:11,298 INFO Step 1: Setting up database and schemas...
+2025-07-12 21:47:11,461 INFO Checked/created database movie_wh.
+2025-07-12 21:47:11,526 INFO Checked/created schema staging.
+2025-07-12 21:47:11,532 INFO Checked/created schema dw.
+2025-07-12 21:47:11,533 INFO \u2713 Database and schemas setup completed
+2025-07-12 21:47:11,535 INFO Step 2: Downloading data...
+2025-07-12 21:47:11,535 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-12 21:47:11,535 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:47:11,535 INFO Checking if ml-latest.zip exists...
+2025-07-12 21:47:11,536 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 21:47:11,536 INFO Checking if ml-latest-small.zip exists...
+2025-07-12 21:47:11,536 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 21:47:11,536 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-12 21:47:11,536 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-12 21:47:11,536 INFO Checking if 'movielens' directory exists...
+2025-07-12 21:47:11,536 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 21:47:11,538 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-12 21:47:11,540 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-12 21:47:20,670 INFO Successfully extracted MovieLens latest dataset.
+2025-07-12 21:47:20,670 INFO Files in movielens directory: ['ml-latest']
+2025-07-12 21:47:20,670 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-12 21:47:20,670 INFO Checking if 'movielens-small' directory exists...
+2025-07-12 21:47:20,670 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 21:47:20,670 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-12 21:47:20,670 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-12 21:47:20,691 INFO Successfully extracted MovieLens small dataset.
+2025-07-12 21:47:20,691 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-12 21:47:20,691 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-12 21:47:20,691 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-12 21:47:20,691 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:47:20,691 INFO Creating 'imdb' directory...
+2025-07-12 21:47:20,691 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-12 21:47:20,691 INFO Processing file: name.basics.tsv.gz
+2025-07-12 21:47:20,691 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 21:47:20,691 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 21:47:20,691 INFO Processing file: title.akas.tsv.gz
+2025-07-12 21:47:20,691 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 21:47:20,691 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 21:47:20,691 INFO Processing file: title.basics.tsv.gz
+2025-07-12 21:47:20,691 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 21:47:20,691 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 21:47:20,691 INFO Processing file: title.crew.tsv.gz
+2025-07-12 21:47:20,691 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 21:47:20,691 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 21:47:20,691 INFO Processing file: title.episode.tsv.gz
+2025-07-12 21:47:20,691 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 21:47:20,691 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 21:47:20,691 INFO Processing file: title.principals.tsv.gz
+2025-07-12 21:47:20,691 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 21:47:20,691 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 21:47:20,691 INFO Processing file: title.ratings.tsv.gz
+2025-07-12 21:47:20,691 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 21:47:20,691 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 21:47:20,691 INFO === VERIFYING IMDB FILES ===
+2025-07-12 21:47:20,691 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-12 21:47:20,691 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-12 21:47:20,691 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-12 21:47:20,691 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-12 21:47:20,691 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-12 21:47:20,691 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-12 21:47:20,691 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-12 21:47:20,691 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-12 21:47:20,691 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-12 21:47:20,691 INFO \u2713 Data download completed
+2025-07-12 21:47:20,691 INFO Step 3: Loading data to staging...
+2025-07-12 21:47:24,419 ERROR === ETL PIPELINE FAILED ===
+2025-07-12 21:47:24,422 ERROR Error: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+: java.lang.UnsupportedOperationException: getSubject is not supported
+
+	at java.base/javax.security.auth.Subject.getSubject(Subject.java:277)
+
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:577)
+
+	at org.apache.spark.util.Utils$.$anonfun$getCurrentUserName$1(Utils.scala:2416)
+
+	at scala.Option.getOrElse(Option.scala:189)
+
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2416)
+
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:334)
+
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:238)
+
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+
+2025-07-12 21:47:24,425 ERROR Traceback: Traceback (most recent call last):
+  File "C:\Users\asoye\Documents\Projects\movie_overload\etl.py", line 103, in main
+    load_movielens_to_staging()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 18, in load_movielens_to_staging
+    spark = get_spark()
+            ^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 14, in get_spark
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\sql\session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\context.py", line 203, in __init__
+    self._do_init(
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\context.py", line 296, in _do_init
+    self._jsc = jsc or self._initialize_context(self._conf._jconf)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\context.py", line 421, in _initialize_context
+    return self._jvm.JavaSparkContext(jconf)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\java_gateway.py", line 1587, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+: java.lang.UnsupportedOperationException: getSubject is not supported
+
+	at java.base/javax.security.auth.Subject.getSubject(Subject.java:277)
+
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:577)
+
+	at org.apache.spark.util.Utils$.$anonfun$getCurrentUserName$1(Utils.scala:2416)
+
+	at scala.Option.getOrElse(Option.scala:189)
+
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2416)
+
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:334)
+
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:238)
+
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+
+
+2025-07-12 21:47:24,425 ERROR Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:47:24,425 ERROR Current directory contents: ['.env', '.git', '.gitignore', '.venv', 'data', 'db_utils.py', 'download_data.py', 'etl.py', 'imdb', 'load_db.py', 'logging_config.py', 'ml-latest-small.zip', 'ml-latest.zip', 'movielens', 'movielens-small', 'movie_data_eda.ipynb', 'movie_etl_env', 'pipeline.log', 'README.md', 'requirements.txt', 'staging_load.py', 'transform_load.py', '__pycache__']
+2025-07-12 21:55:34,794 INFO === STARTING ETL PIPELINE ===
+2025-07-12 21:55:34,796 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:55:34,796 INFO Step 1: Setting up database and schemas...
+2025-07-12 21:55:35,007 INFO Checked/created database movie_wh.
+2025-07-12 21:55:35,080 INFO Checked/created schema staging.
+2025-07-12 21:55:35,087 INFO Checked/created schema dw.
+2025-07-12 21:55:35,087 INFO \u2713 Database and schemas setup completed
+2025-07-12 21:55:35,087 INFO Step 2: Downloading data...
+2025-07-12 21:55:35,087 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-12 21:55:35,087 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:55:35,087 INFO Checking if ml-latest.zip exists...
+2025-07-12 21:55:35,087 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 21:55:35,087 INFO Checking if ml-latest-small.zip exists...
+2025-07-12 21:55:35,087 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 21:55:35,087 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-12 21:55:35,087 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-12 21:55:35,087 INFO Checking if 'movielens' directory exists...
+2025-07-12 21:55:35,087 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 21:55:35,087 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-12 21:55:35,087 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-12 21:55:42,581 INFO Successfully extracted MovieLens latest dataset.
+2025-07-12 21:55:42,581 INFO Files in movielens directory: ['ml-latest']
+2025-07-12 21:55:42,581 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-12 21:55:42,581 INFO Checking if 'movielens-small' directory exists...
+2025-07-12 21:55:42,581 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 21:55:42,581 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-12 21:55:42,581 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-12 21:55:42,612 INFO Successfully extracted MovieLens small dataset.
+2025-07-12 21:55:42,612 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-12 21:55:42,612 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-12 21:55:42,612 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-12 21:55:42,612 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:55:42,612 INFO Creating 'imdb' directory...
+2025-07-12 21:55:42,612 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-12 21:55:42,612 INFO Processing file: name.basics.tsv.gz
+2025-07-12 21:55:42,612 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 21:55:42,612 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 21:55:42,612 INFO Processing file: title.akas.tsv.gz
+2025-07-12 21:55:42,612 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 21:55:42,612 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 21:55:42,612 INFO Processing file: title.basics.tsv.gz
+2025-07-12 21:55:42,612 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 21:55:42,612 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 21:55:42,612 INFO Processing file: title.crew.tsv.gz
+2025-07-12 21:55:42,612 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 21:55:42,612 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 21:55:42,612 INFO Processing file: title.episode.tsv.gz
+2025-07-12 21:55:42,612 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 21:55:42,612 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 21:55:42,612 INFO Processing file: title.principals.tsv.gz
+2025-07-12 21:55:42,612 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 21:55:42,612 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 21:55:42,612 INFO Processing file: title.ratings.tsv.gz
+2025-07-12 21:55:42,612 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 21:55:42,612 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 21:55:42,612 INFO === VERIFYING IMDB FILES ===
+2025-07-12 21:55:42,612 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-12 21:55:42,612 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-12 21:55:42,612 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-12 21:55:42,612 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-12 21:55:42,612 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-12 21:55:42,612 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-12 21:55:42,612 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-12 21:55:42,612 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-12 21:55:42,612 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-12 21:55:42,612 INFO \u2713 Data download completed
+2025-07-12 21:55:42,612 INFO Step 3: Loading data to staging...
+2025-07-12 21:55:57,039 ERROR === ETL PIPELINE FAILED ===
+2025-07-12 21:55:57,039 ERROR Error: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: getsockopt. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:250)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.convertConnectExceptionToSQLServerException(SQLServerException.java:316)
+
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2593)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:721)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4079)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+2025-07-12 21:55:57,087 ERROR Traceback: Traceback (most recent call last):
+  File "C:\Users\asoye\Documents\Projects\movie_overload\etl.py", line 103, in main
+    load_movielens_to_staging()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 41, in load_movielens_to_staging
+    .save()
+     ^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\sql\readwriter.py", line 1461, in save
+    self._jwrite.save()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: getsockopt. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:250)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.convertConnectExceptionToSQLServerException(SQLServerException.java:316)
+
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2593)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:721)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4079)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+
+2025-07-12 21:55:57,087 ERROR Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:55:57,087 ERROR Current directory contents: ['.env', '.git', '.gitignore', '.venv', 'data', 'db_utils.py', 'download_data.py', 'etl.py', 'imdb', 'load_db.py', 'logging_config.py', 'ml-latest-small.zip', 'ml-latest.zip', 'movielens', 'movielens-small', 'movie_data_eda.ipynb', 'movie_etl_env', 'pipeline.log', 'README.md', 'requirements.txt', 'staging_load.py', 'transform_load.py', '__pycache__']
+2025-07-12 21:55:57,126 INFO Closing down clientserver connection
+2025-07-12 21:58:39,360 INFO === STARTING ETL PIPELINE ===
+2025-07-12 21:58:39,360 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:58:39,360 INFO Step 1: Setting up database and schemas...
+2025-07-12 21:58:39,546 INFO Checked/created database movie_wh.
+2025-07-12 21:58:39,612 INFO Checked/created schema staging.
+2025-07-12 21:58:39,612 INFO Checked/created schema dw.
+2025-07-12 21:58:39,612 INFO \u2713 Database and schemas setup completed
+2025-07-12 21:58:39,612 INFO Step 2: Downloading data...
+2025-07-12 21:58:39,612 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-12 21:58:39,612 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:58:39,612 INFO Checking if ml-latest.zip exists...
+2025-07-12 21:58:39,612 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 21:58:39,612 INFO Checking if ml-latest-small.zip exists...
+2025-07-12 21:58:39,612 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 21:58:39,612 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-12 21:58:39,612 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-12 21:58:39,612 INFO Checking if 'movielens' directory exists...
+2025-07-12 21:58:39,612 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 21:58:39,627 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-12 21:58:39,627 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-12 21:58:47,090 INFO Successfully extracted MovieLens latest dataset.
+2025-07-12 21:58:47,090 INFO Files in movielens directory: ['ml-latest']
+2025-07-12 21:58:47,090 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-12 21:58:47,090 INFO Checking if 'movielens-small' directory exists...
+2025-07-12 21:58:47,090 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 21:58:47,092 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-12 21:58:47,092 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-12 21:58:47,114 INFO Successfully extracted MovieLens small dataset.
+2025-07-12 21:58:47,114 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-12 21:58:47,114 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-12 21:58:47,114 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-12 21:58:47,114 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:58:47,114 INFO Creating 'imdb' directory...
+2025-07-12 21:58:47,114 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-12 21:58:47,114 INFO Processing file: name.basics.tsv.gz
+2025-07-12 21:58:47,114 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 21:58:47,114 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 21:58:47,114 INFO Processing file: title.akas.tsv.gz
+2025-07-12 21:58:47,114 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 21:58:47,114 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 21:58:47,114 INFO Processing file: title.basics.tsv.gz
+2025-07-12 21:58:47,114 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 21:58:47,114 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 21:58:47,114 INFO Processing file: title.crew.tsv.gz
+2025-07-12 21:58:47,114 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 21:58:47,114 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 21:58:47,114 INFO Processing file: title.episode.tsv.gz
+2025-07-12 21:58:47,114 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 21:58:47,114 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 21:58:47,114 INFO Processing file: title.principals.tsv.gz
+2025-07-12 21:58:47,114 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 21:58:47,114 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 21:58:47,114 INFO Processing file: title.ratings.tsv.gz
+2025-07-12 21:58:47,114 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 21:58:47,114 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 21:58:47,114 INFO === VERIFYING IMDB FILES ===
+2025-07-12 21:58:47,114 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-12 21:58:47,114 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-12 21:58:47,114 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-12 21:58:47,114 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-12 21:58:47,114 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-12 21:58:47,114 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-12 21:58:47,114 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-12 21:58:47,114 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-12 21:58:47,114 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-12 21:58:47,114 INFO \u2713 Data download completed
+2025-07-12 21:58:47,114 INFO Step 3: Loading data to staging...
+2025-07-12 21:58:57,987 ERROR === ETL PIPELINE FAILED ===
+2025-07-12 21:58:57,989 ERROR Error: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: getsockopt. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:250)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.convertConnectExceptionToSQLServerException(SQLServerException.java:316)
+
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2593)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:721)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4079)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+2025-07-12 21:58:57,997 ERROR Traceback: Traceback (most recent call last):
+  File "C:\Users\asoye\Documents\Projects\movie_overload\etl.py", line 103, in main
+    load_movielens_to_staging()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 41, in load_movielens_to_staging
+    .save()
+     ^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\sql\readwriter.py", line 1461, in save
+    self._jwrite.save()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: getsockopt. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:250)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.convertConnectExceptionToSQLServerException(SQLServerException.java:316)
+
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2593)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:721)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4079)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+
+2025-07-12 21:58:57,997 ERROR Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 21:58:57,997 ERROR Current directory contents: ['.env', '.git', '.gitignore', '.venv', 'data', 'db_utils.py', 'download_data.py', 'etl.py', 'imdb', 'load_db.py', 'logging_config.py', 'ml-latest-small.zip', 'ml-latest.zip', 'movielens', 'movielens-small', 'movie_data_eda.ipynb', 'movie_etl_env', 'pipeline.log', 'README.md', 'requirements.txt', 'staging_load.py', 'transform_load.py', '__pycache__']
+2025-07-12 21:58:58,015 INFO Closing down clientserver connection
+2025-07-12 23:05:29,430 INFO === STARTING ETL PIPELINE ===
+2025-07-12 23:05:29,433 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:05:29,433 INFO Step 1: Setting up database and schemas...
+2025-07-12 23:05:29,623 INFO Checked/created database movie_wh.
+2025-07-12 23:05:29,709 INFO Checked/created schema staging.
+2025-07-12 23:05:29,715 INFO Checked/created schema dw.
+2025-07-12 23:05:29,717 INFO \u2713 Database and schemas setup completed
+2025-07-12 23:05:29,720 INFO Step 2: Downloading data...
+2025-07-12 23:05:29,720 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-12 23:05:29,720 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:05:29,720 INFO Checking if ml-latest.zip exists...
+2025-07-12 23:05:29,720 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 23:05:29,720 INFO Checking if ml-latest-small.zip exists...
+2025-07-12 23:05:29,721 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 23:05:29,721 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-12 23:05:29,721 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-12 23:05:29,721 INFO Checking if 'movielens' directory exists...
+2025-07-12 23:05:29,721 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 23:05:29,755 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-12 23:05:29,755 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-12 23:05:37,915 INFO Successfully extracted MovieLens latest dataset.
+2025-07-12 23:05:37,915 INFO Files in movielens directory: ['ml-latest']
+2025-07-12 23:05:37,915 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-12 23:05:37,915 INFO Checking if 'movielens-small' directory exists...
+2025-07-12 23:05:37,915 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 23:05:37,946 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-12 23:05:37,946 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-12 23:05:37,987 INFO Successfully extracted MovieLens small dataset.
+2025-07-12 23:05:37,987 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-12 23:05:37,987 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-12 23:05:37,987 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-12 23:05:37,987 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:05:37,987 INFO Creating 'imdb' directory...
+2025-07-12 23:05:37,987 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-12 23:05:37,987 INFO Processing file: name.basics.tsv.gz
+2025-07-12 23:05:37,987 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 23:05:37,987 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 23:05:37,987 INFO Processing file: title.akas.tsv.gz
+2025-07-12 23:05:37,987 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 23:05:37,987 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 23:05:37,987 INFO Processing file: title.basics.tsv.gz
+2025-07-12 23:05:37,987 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 23:05:37,987 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 23:05:37,987 INFO Processing file: title.crew.tsv.gz
+2025-07-12 23:05:37,987 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 23:05:37,987 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 23:05:37,987 INFO Processing file: title.episode.tsv.gz
+2025-07-12 23:05:37,987 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 23:05:37,987 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 23:05:37,987 INFO Processing file: title.principals.tsv.gz
+2025-07-12 23:05:37,987 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 23:05:37,987 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 23:05:37,987 INFO Processing file: title.ratings.tsv.gz
+2025-07-12 23:05:37,987 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 23:05:37,987 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 23:05:37,987 INFO === VERIFYING IMDB FILES ===
+2025-07-12 23:05:37,987 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-12 23:05:37,987 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-12 23:05:37,987 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-12 23:05:37,987 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-12 23:05:37,987 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-12 23:05:37,987 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-12 23:05:37,987 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-12 23:05:37,987 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-12 23:05:37,987 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-12 23:05:37,987 INFO \u2713 Data download completed
+2025-07-12 23:05:37,987 INFO Step 3: Loading data to staging...
+2025-07-12 23:05:41,960 ERROR === ETL PIPELINE FAILED ===
+2025-07-12 23:05:41,962 ERROR Error: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+: java.lang.UnsupportedOperationException: getSubject is not supported
+
+	at java.base/javax.security.auth.Subject.getSubject(Subject.java:277)
+
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:577)
+
+	at org.apache.spark.util.Utils$.$anonfun$getCurrentUserName$1(Utils.scala:2416)
+
+	at scala.Option.getOrElse(Option.scala:189)
+
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2416)
+
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:334)
+
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:238)
+
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+
+2025-07-12 23:05:41,998 ERROR Traceback: Traceback (most recent call last):
+  File "C:\Users\asoye\Documents\Projects\movie_overload\etl.py", line 103, in main
+    load_movielens_to_staging()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 18, in load_movielens_to_staging
+    spark = get_spark()
+            ^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 14, in get_spark
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\sql\session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\context.py", line 203, in __init__
+    self._do_init(
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\context.py", line 296, in _do_init
+    self._jsc = jsc or self._initialize_context(self._conf._jconf)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\context.py", line 421, in _initialize_context
+    return self._jvm.JavaSparkContext(jconf)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\java_gateway.py", line 1587, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+: java.lang.UnsupportedOperationException: getSubject is not supported
+
+	at java.base/javax.security.auth.Subject.getSubject(Subject.java:277)
+
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:577)
+
+	at org.apache.spark.util.Utils$.$anonfun$getCurrentUserName$1(Utils.scala:2416)
+
+	at scala.Option.getOrElse(Option.scala:189)
+
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2416)
+
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:334)
+
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:238)
+
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+
+
+2025-07-12 23:05:41,998 ERROR Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:05:41,999 ERROR Current directory contents: ['.env', '.git', '.gitignore', '.venv', 'data', 'db_utils.py', 'download_data.py', 'etl.py', 'imdb', 'load_db.py', 'logging_config.py', 'ml-latest-small.zip', 'ml-latest.zip', 'movielens', 'movielens-small', 'movie_data_eda.ipynb', 'movie_etl_env', 'pipeline.log', 'README.md', 'requirements.txt', 'staging_load.py', 'transform_load.py', '__pycache__']
+2025-07-12 23:08:42,681 INFO === STARTING ETL PIPELINE ===
+2025-07-12 23:08:42,684 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:08:42,685 INFO Step 1: Setting up database and schemas...
+2025-07-12 23:08:42,926 INFO Checked/created database movie_wh.
+2025-07-12 23:08:43,004 INFO Checked/created schema staging.
+2025-07-12 23:08:43,009 INFO Checked/created schema dw.
+2025-07-12 23:08:43,011 INFO \u2713 Database and schemas setup completed
+2025-07-12 23:08:43,012 INFO Step 2: Downloading data...
+2025-07-12 23:08:43,012 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-12 23:08:43,012 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:08:43,012 INFO Checking if ml-latest.zip exists...
+2025-07-12 23:08:43,013 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 23:08:43,013 INFO Checking if ml-latest-small.zip exists...
+2025-07-12 23:08:43,013 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 23:08:43,013 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-12 23:08:43,013 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-12 23:08:43,013 INFO Checking if 'movielens' directory exists...
+2025-07-12 23:08:43,013 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 23:08:43,019 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-12 23:08:43,019 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-12 23:08:51,066 INFO Successfully extracted MovieLens latest dataset.
+2025-07-12 23:08:51,066 INFO Files in movielens directory: ['ml-latest']
+2025-07-12 23:08:51,066 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-12 23:08:51,066 INFO Checking if 'movielens-small' directory exists...
+2025-07-12 23:08:51,066 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 23:08:51,066 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-12 23:08:51,066 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-12 23:08:51,082 INFO Successfully extracted MovieLens small dataset.
+2025-07-12 23:08:51,082 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-12 23:08:51,082 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-12 23:08:51,082 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-12 23:08:51,082 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:08:51,082 INFO Creating 'imdb' directory...
+2025-07-12 23:08:51,082 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-12 23:08:51,082 INFO Processing file: name.basics.tsv.gz
+2025-07-12 23:08:51,082 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 23:08:51,082 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 23:08:51,082 INFO Processing file: title.akas.tsv.gz
+2025-07-12 23:08:51,082 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 23:08:51,082 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 23:08:51,082 INFO Processing file: title.basics.tsv.gz
+2025-07-12 23:08:51,082 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 23:08:51,082 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 23:08:51,082 INFO Processing file: title.crew.tsv.gz
+2025-07-12 23:08:51,082 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 23:08:51,082 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 23:08:51,082 INFO Processing file: title.episode.tsv.gz
+2025-07-12 23:08:51,082 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 23:08:51,082 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 23:08:51,082 INFO Processing file: title.principals.tsv.gz
+2025-07-12 23:08:51,082 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 23:08:51,082 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 23:08:51,082 INFO Processing file: title.ratings.tsv.gz
+2025-07-12 23:08:51,082 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 23:08:51,082 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 23:08:51,082 INFO === VERIFYING IMDB FILES ===
+2025-07-12 23:08:51,082 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-12 23:08:51,082 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-12 23:08:51,082 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-12 23:08:51,082 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-12 23:08:51,096 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-12 23:08:51,096 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-12 23:08:51,096 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-12 23:08:51,096 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-12 23:08:51,096 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-12 23:08:51,096 INFO \u2713 Data download completed
+2025-07-12 23:08:51,096 INFO Step 3: Loading data to staging...
+2025-07-12 23:09:03,681 ERROR === ETL PIPELINE FAILED ===
+2025-07-12 23:09:03,697 ERROR Error: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: getsockopt. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:250)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.convertConnectExceptionToSQLServerException(SQLServerException.java:316)
+
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2593)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:721)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4079)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+2025-07-12 23:09:03,731 ERROR Traceback: Traceback (most recent call last):
+  File "C:\Users\asoye\Documents\Projects\movie_overload\etl.py", line 103, in main
+    load_movielens_to_staging()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 41, in load_movielens_to_staging
+    .save()
+     ^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\sql\readwriter.py", line 1461, in save
+    self._jwrite.save()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host localhost, port 1433 has failed. Error: "Connection refused: getsockopt. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:250)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerException.convertConnectExceptionToSQLServerException(SQLServerException.java:316)
+
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2593)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:721)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4079)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+
+
+2025-07-12 23:09:03,731 ERROR Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:09:03,731 ERROR Current directory contents: ['.env', '.git', '.gitignore', '.venv', 'data', 'db_utils.py', 'download_data.py', 'etl.py', 'imdb', 'load_db.py', 'logging_config.py', 'ml-latest-small.zip', 'ml-latest.zip', 'movielens', 'movielens-small', 'movie_data_eda.ipynb', 'movie_etl_env', 'pipeline.log', 'README.md', 'requirements.txt', 'staging_load.py', 'transform_load.py', '__pycache__']
+2025-07-12 23:09:03,753 INFO Closing down clientserver connection
+2025-07-12 23:20:43,222 INFO === STARTING ETL PIPELINE ===
+2025-07-12 23:20:43,225 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:20:43,225 INFO Step 1: Setting up database and schemas...
+2025-07-12 23:20:43,476 INFO Checked/created database movie_wh.
+2025-07-12 23:20:43,555 INFO Checked/created schema staging.
+2025-07-12 23:20:43,555 INFO Checked/created schema dw.
+2025-07-12 23:20:43,571 INFO \u2713 Database and schemas setup completed
+2025-07-12 23:20:43,571 INFO Step 2: Downloading data...
+2025-07-12 23:20:43,571 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-12 23:20:43,571 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:20:43,571 INFO Checking if ml-latest.zip exists...
+2025-07-12 23:20:43,573 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 23:20:43,573 INFO Checking if ml-latest-small.zip exists...
+2025-07-12 23:20:43,573 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 23:20:43,573 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-12 23:20:43,573 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-12 23:20:43,573 INFO Checking if 'movielens' directory exists...
+2025-07-12 23:20:43,573 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 23:20:43,578 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-12 23:20:43,578 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-12 23:20:50,854 INFO Successfully extracted MovieLens latest dataset.
+2025-07-12 23:20:50,854 INFO Files in movielens directory: ['ml-latest']
+2025-07-12 23:20:50,855 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-12 23:20:50,855 INFO Checking if 'movielens-small' directory exists...
+2025-07-12 23:20:50,855 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 23:20:50,855 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-12 23:20:50,856 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-12 23:20:50,876 INFO Successfully extracted MovieLens small dataset.
+2025-07-12 23:20:50,876 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-12 23:20:50,876 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-12 23:20:50,876 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-12 23:20:50,876 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:20:50,876 INFO Creating 'imdb' directory...
+2025-07-12 23:20:50,876 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-12 23:20:50,876 INFO Processing file: name.basics.tsv.gz
+2025-07-12 23:20:50,876 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 23:20:50,876 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 23:20:50,876 INFO Processing file: title.akas.tsv.gz
+2025-07-12 23:20:50,876 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 23:20:50,876 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 23:20:50,876 INFO Processing file: title.basics.tsv.gz
+2025-07-12 23:20:50,876 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 23:20:50,876 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 23:20:50,876 INFO Processing file: title.crew.tsv.gz
+2025-07-12 23:20:50,876 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 23:20:50,876 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 23:20:50,876 INFO Processing file: title.episode.tsv.gz
+2025-07-12 23:20:50,876 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 23:20:50,876 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 23:20:50,876 INFO Processing file: title.principals.tsv.gz
+2025-07-12 23:20:50,876 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 23:20:50,876 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 23:20:50,876 INFO Processing file: title.ratings.tsv.gz
+2025-07-12 23:20:50,876 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 23:20:50,876 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 23:20:50,876 INFO === VERIFYING IMDB FILES ===
+2025-07-12 23:20:50,876 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-12 23:20:50,876 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-12 23:20:50,876 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-12 23:20:50,876 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-12 23:20:50,876 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-12 23:20:50,876 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-12 23:20:50,876 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-12 23:20:50,876 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-12 23:20:50,876 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-12 23:20:50,876 INFO \u2713 Data download completed
+2025-07-12 23:20:50,876 INFO Step 3: Loading data to staging...
+2025-07-12 23:21:02,129 ERROR === ETL PIPELINE FAILED ===
+2025-07-12 23:21:02,129 ERROR Error: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: "encrypt" property is set to "true" and "trustServerCertificate" property is set to "false" but the driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption: Error: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. ClientConnectionId:2bc77b6b-07e7-40f8-9ea6-9b27dcb1ec9f
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:4586)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL(IOBuffer.java:1965)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4108)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383)
+
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326)
+
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654)
+
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473)
+
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369)
+
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
+
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
+
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
+
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206)
+
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510)
+
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425)
+
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL(IOBuffer.java:1854)
+
+	... 51 more
+
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)
+
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306)
+
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:242)
+
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:113)
+
+	at com.microsoft.sqlserver.jdbc.HostNameOverrideX509TrustManager.checkServerTrusted(SQLServerTrustManager.java:88)
+
+	at java.base/sun.security.ssl.AbstractTrustManagerWrapper.checkServerTrusted(SSLContextImpl.java:1436)
+
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638)
+
+	... 63 more
+
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
+
+	... 70 more
+
+
+2025-07-12 23:21:02,135 ERROR Traceback: Traceback (most recent call last):
+  File "C:\Users\asoye\Documents\Projects\movie_overload\etl.py", line 103, in main
+    load_movielens_to_staging()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 41, in load_movielens_to_staging
+    .save()
+     ^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\sql\readwriter.py", line 1461, in save
+    self._jwrite.save()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: "encrypt" property is set to "true" and "trustServerCertificate" property is set to "false" but the driver could not establish a secure connection to SQL Server by using Secure Sockets Layer (SSL) encryption: Error: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target. ClientConnectionId:2bc77b6b-07e7-40f8-9ea6-9b27dcb1ec9f
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:4586)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL(IOBuffer.java:1965)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4108)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131)
+
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383)
+
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326)
+
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321)
+
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:654)
+
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(CertificateMessage.java:473)
+
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(CertificateMessage.java:369)
+
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396)
+
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480)
+
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458)
+
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206)
+
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1510)
+
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1425)
+
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+
+	at com.microsoft.sqlserver.jdbc.TDSChannel.enableSSL(IOBuffer.java:1854)
+
+	... 51 more
+
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439)
+
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306)
+
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264)
+
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:242)
+
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:113)
+
+	at com.microsoft.sqlserver.jdbc.HostNameOverrideX509TrustManager.checkServerTrusted(SQLServerTrustManager.java:88)
+
+	at java.base/sun.security.ssl.AbstractTrustManagerWrapper.checkServerTrusted(SSLContextImpl.java:1436)
+
+	at java.base/sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(CertificateMessage.java:638)
+
+	... 63 more
+
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148)
+
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129)
+
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
+
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434)
+
+	... 70 more
+
+
+
+2025-07-12 23:21:02,135 ERROR Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:21:02,135 ERROR Current directory contents: ['.env', '.git', '.gitignore', '.venv', 'data', 'db_utils.py', 'download_data.py', 'etl.py', 'imdb', 'load_db.py', 'logging_config.py', 'ml-latest-small.zip', 'ml-latest.zip', 'movielens', 'movielens-small', 'movie_data_eda.ipynb', 'movie_etl_env', 'pipeline.log', 'README.md', 'requirements.txt', 'staging_load.py', 'transform_load.py', '__pycache__']
+2025-07-12 23:21:02,160 INFO Closing down clientserver connection
+2025-07-12 23:26:20,590 INFO === STARTING ETL PIPELINE ===
+2025-07-12 23:26:20,590 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:26:20,591 INFO Step 1: Setting up database and schemas...
+2025-07-12 23:26:20,672 INFO Checked/created database movie_wh.
+2025-07-12 23:26:20,682 INFO Checked/created schema staging.
+2025-07-12 23:26:20,688 INFO Checked/created schema dw.
+2025-07-12 23:26:20,689 INFO \u2713 Database and schemas setup completed
+2025-07-12 23:26:20,689 INFO Step 2: Downloading data...
+2025-07-12 23:26:20,689 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-12 23:26:20,689 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:26:20,689 INFO Checking if ml-latest.zip exists...
+2025-07-12 23:26:20,690 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 23:26:20,690 INFO Checking if ml-latest-small.zip exists...
+2025-07-12 23:26:20,690 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 23:26:20,690 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-12 23:26:20,690 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-12 23:26:20,690 INFO Checking if 'movielens' directory exists...
+2025-07-12 23:26:20,690 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-12 23:26:20,693 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-12 23:26:20,694 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-12 23:26:29,697 INFO Successfully extracted MovieLens latest dataset.
+2025-07-12 23:26:29,697 INFO Files in movielens directory: ['ml-latest']
+2025-07-12 23:26:29,697 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-12 23:26:29,697 INFO Checking if 'movielens-small' directory exists...
+2025-07-12 23:26:29,697 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-12 23:26:29,702 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-12 23:26:29,702 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-12 23:26:29,716 INFO Successfully extracted MovieLens small dataset.
+2025-07-12 23:26:29,716 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-12 23:26:29,716 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-12 23:26:29,716 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-12 23:26:29,716 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:26:29,716 INFO Creating 'imdb' directory...
+2025-07-12 23:26:29,716 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-12 23:26:29,716 INFO Processing file: name.basics.tsv.gz
+2025-07-12 23:26:29,716 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 23:26:29,716 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-12 23:26:29,716 INFO Processing file: title.akas.tsv.gz
+2025-07-12 23:26:29,716 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 23:26:29,716 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-12 23:26:29,716 INFO Processing file: title.basics.tsv.gz
+2025-07-12 23:26:29,716 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 23:26:29,716 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-12 23:26:29,716 INFO Processing file: title.crew.tsv.gz
+2025-07-12 23:26:29,716 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 23:26:29,716 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-12 23:26:29,716 INFO Processing file: title.episode.tsv.gz
+2025-07-12 23:26:29,716 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 23:26:29,716 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-12 23:26:29,716 INFO Processing file: title.principals.tsv.gz
+2025-07-12 23:26:29,716 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 23:26:29,716 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-12 23:26:29,716 INFO Processing file: title.ratings.tsv.gz
+2025-07-12 23:26:29,716 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 23:26:29,716 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-12 23:26:29,716 INFO === VERIFYING IMDB FILES ===
+2025-07-12 23:26:29,716 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-12 23:26:29,726 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-12 23:26:29,726 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-12 23:26:29,726 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-12 23:26:29,726 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-12 23:26:29,726 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-12 23:26:29,726 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-12 23:26:29,726 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-12 23:26:29,726 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-12 23:26:29,726 INFO \u2713 Data download completed
+2025-07-12 23:26:29,726 INFO Step 3: Loading data to staging...
+2025-07-12 23:26:43,265 ERROR === ETL PIPELINE FAILED ===
+2025-07-12 23:26:43,265 ERROR Error: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:f71721dd-6053-4f0e-a86b-d6cbf14f38fa
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:4586)
+
+	at com.microsoft.sqlserver.jdbc.AuthenticationJNI.<init>(AuthenticationJNI.java:78)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:5692)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:5681)
+
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7745)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4706)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4139)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Caused by: java.lang.UnsatisfiedLinkError: Unable to load authentication DLL mssql-jdbc_auth-12.10.1.x64
+
+	at com.microsoft.sqlserver.jdbc.AuthenticationJNI.<clinit>(AuthenticationJNI.java:67)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:5691)
+
+	... 54 more
+
+
+2025-07-12 23:26:43,265 ERROR Traceback: Traceback (most recent call last):
+  File "C:\Users\asoye\Documents\Projects\movie_overload\etl.py", line 103, in main
+    load_movielens_to_staging()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\staging_load.py", line 41, in load_movielens_to_staging
+    .save()
+     ^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\sql\readwriter.py", line 1461, in save
+    self._jwrite.save()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\pyspark\errors\exceptions\captured.py", line 179, in deco
+    return f(*a, **kw)
+           ^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\movie_etl_env\Lib\site-packages\py4j\protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o39.save.
+: com.microsoft.sqlserver.jdbc.SQLServerException: This driver is not configured for integrated authentication. ClientConnectionId:f71721dd-6053-4f0e-a86b-d6cbf14f38fa
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.terminate(SQLServerConnection.java:4586)
+
+	at com.microsoft.sqlserver.jdbc.AuthenticationJNI.<init>(AuthenticationJNI.java:78)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:5692)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection$LogonCommand.doExecute(SQLServerConnection.java:5681)
+
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:7745)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:4706)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:4139)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:3695)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:3504)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:2212)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1320)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:160)
+
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:156)
+
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:50)
+
+	at org.apache.spark.sql.execution.datasources.SaveIntoDataSourceCommand.run(SaveIntoDataSourceCommand.scala:48)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult$lzycompute(commands.scala:75)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.sideEffectResult(commands.scala:73)
+
+	at org.apache.spark.sql.execution.command.ExecutedCommandExec.executeCollect(commands.scala:84)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:125)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:201)
+
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:108)
+
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:900)
+
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:66)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:107)
+
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(origin.scala:76)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:461)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:32)
+
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:437)
+
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:98)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:85)
+
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:83)
+
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:142)
+
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:859)
+
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:388)
+
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:361)
+
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:248)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+
+	at py4j.Gateway.invoke(Gateway.java:282)
+
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+Caused by: java.lang.UnsatisfiedLinkError: Unable to load authentication DLL mssql-jdbc_auth-12.10.1.x64
+
+	at com.microsoft.sqlserver.jdbc.AuthenticationJNI.<clinit>(AuthenticationJNI.java:67)
+
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.logon(SQLServerConnection.java:5691)
+
+	... 54 more
+
+
+
+2025-07-12 23:26:43,265 ERROR Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-12 23:26:43,265 ERROR Current directory contents: ['.env', '.git', '.gitignore', '.venv', 'data', 'db_utils.py', 'download_data.py', 'etl.py', 'imdb', 'load_db.py', 'logging_config.py', 'ml-latest-small.zip', 'ml-latest.zip', 'movielens', 'movielens-small', 'movie_data_eda.ipynb', 'movie_etl_env', 'pipeline.log', 'README.md', 'requirements.txt', 'staging_load.py', 'transform_load.py', '__pycache__']
+2025-07-12 23:26:43,316 INFO Closing down clientserver connection
+2025-07-13 13:42:30,490 INFO === STARTING ETL PIPELINE ===
+2025-07-13 13:42:30,491 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 13:42:30,491 INFO Step 1: Setting up database and schemas...
+2025-07-13 13:42:45,633 ERROR === ETL PIPELINE FAILED ===
+2025-07-13 13:42:45,634 ERROR Error: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+2025-07-13 13:42:45,637 ERROR Traceback: Traceback (most recent call last):
+  File "C:\Users\asoye\Documents\Projects\movie_overload\etl.py", line 90, in main
+    create_database()
+  File "C:\Users\asoye\Documents\Projects\movie_overload\db_utils.py", line 32, in create_database
+    conn = get_connection()
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\asoye\Documents\Projects\movie_overload\db_utils.py", line 28, in get_connection
+    return pyodbc.connect(conn_str)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+pyodbc.OperationalError: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [53].  (53) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (53)')
+
+2025-07-13 13:42:45,638 ERROR Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 13:42:45,638 ERROR Current directory contents: ['.env', '.git', '.gitignore', '.venv', 'data', 'db_utils.py', 'download_data.py', 'env_template.txt', 'etl.py', 'imdb', 'load_db.py', 'logging_config.py', 'ml-latest-small.zip', 'ml-latest.zip', 'movielens', 'movielens-small', 'movie_data_eda.ipynb', 'movie_etl_env', 'pipeline.log', 'README.md', 'requirements.txt', 'staging_load.py', 'transform_load.py', '__pycache__']
+2025-07-13 13:53:54,159 INFO === STARTING ETL PIPELINE ===
+2025-07-13 13:53:54,160 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 13:53:54,160 INFO Step 1: Setting up database and schemas...
+2025-07-13 13:53:54,342 INFO Checked/created database movie_wh.
+2025-07-13 13:53:54,439 INFO Checked/created schema staging.
+2025-07-13 13:53:54,445 INFO Checked/created schema dw.
+2025-07-13 13:53:54,446 INFO \u2713 Database and schemas setup completed
+2025-07-13 13:53:54,447 INFO Step 2: Downloading data...
+2025-07-13 13:53:54,447 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-13 13:53:54,448 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 13:53:54,448 INFO Checking if ml-latest.zip exists...
+2025-07-13 13:53:54,448 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 13:53:54,448 INFO Checking if ml-latest-small.zip exists...
+2025-07-13 13:53:54,448 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 13:53:54,449 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-13 13:53:54,449 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-13 13:53:54,449 INFO Checking if 'movielens' directory exists...
+2025-07-13 13:53:54,449 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 13:53:54,452 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-13 13:53:54,453 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-13 13:54:07,416 INFO Successfully extracted MovieLens latest dataset.
+2025-07-13 13:54:07,417 INFO Files in movielens directory: ['ml-latest']
+2025-07-13 13:54:07,417 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-13 13:54:07,417 INFO Checking if 'movielens-small' directory exists...
+2025-07-13 13:54:07,417 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 13:54:07,419 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-13 13:54:07,419 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-13 13:54:07,446 INFO Successfully extracted MovieLens small dataset.
+2025-07-13 13:54:07,446 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-13 13:54:07,446 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-13 13:54:07,446 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-13 13:54:07,446 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 13:54:07,446 INFO Creating 'imdb' directory...
+2025-07-13 13:54:07,447 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-13 13:54:07,447 INFO Processing file: name.basics.tsv.gz
+2025-07-13 13:54:07,447 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 13:54:07,448 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 13:54:07,448 INFO Processing file: title.akas.tsv.gz
+2025-07-13 13:54:07,448 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 13:54:07,448 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 13:54:07,448 INFO Processing file: title.basics.tsv.gz
+2025-07-13 13:54:07,448 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 13:54:07,448 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 13:54:07,448 INFO Processing file: title.crew.tsv.gz
+2025-07-13 13:54:07,449 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 13:54:07,449 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 13:54:07,449 INFO Processing file: title.episode.tsv.gz
+2025-07-13 13:54:07,449 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 13:54:07,449 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 13:54:07,449 INFO Processing file: title.principals.tsv.gz
+2025-07-13 13:54:07,449 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 13:54:07,449 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 13:54:07,449 INFO Processing file: title.ratings.tsv.gz
+2025-07-13 13:54:07,449 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 13:54:07,449 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 13:54:07,449 INFO === VERIFYING IMDB FILES ===
+2025-07-13 13:54:07,449 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-13 13:54:07,449 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-13 13:54:07,450 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-13 13:54:07,450 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-13 13:54:07,450 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-13 13:54:07,450 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-13 13:54:07,450 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-13 13:54:07,450 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-13 13:54:07,450 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-13 13:54:07,450 INFO \u2713 Data download completed
+2025-07-13 13:54:07,450 INFO Step 3: Loading data to staging...
+2025-07-13 14:07:21,191 INFO === STARTING ETL PIPELINE ===
+2025-07-13 14:07:21,191 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 14:07:21,191 INFO Step 1: Setting up database and schemas...
+2025-07-13 14:07:21,384 INFO Checked/created database movie_wh.
+2025-07-13 14:07:21,478 INFO Checked/created schema staging.
+2025-07-13 14:07:21,485 INFO Checked/created schema dw.
+2025-07-13 14:07:21,486 INFO \u2713 Database and schemas setup completed
+2025-07-13 14:07:21,486 INFO Step 2: Downloading data...
+2025-07-13 14:07:21,486 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-13 14:07:21,486 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 14:07:21,486 INFO Checking if ml-latest.zip exists...
+2025-07-13 14:07:21,486 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 14:07:21,486 INFO Checking if ml-latest-small.zip exists...
+2025-07-13 14:07:21,486 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 14:07:21,486 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-13 14:07:21,486 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-13 14:07:21,487 INFO Checking if 'movielens' directory exists...
+2025-07-13 14:07:21,487 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 14:07:21,490 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-13 14:07:21,490 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-13 14:07:32,311 INFO Successfully extracted MovieLens latest dataset.
+2025-07-13 14:07:32,312 INFO Files in movielens directory: ['ml-latest']
+2025-07-13 14:07:32,312 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-13 14:07:32,312 INFO Checking if 'movielens-small' directory exists...
+2025-07-13 14:07:32,312 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 14:07:32,316 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-13 14:07:32,317 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-13 14:07:32,352 INFO Successfully extracted MovieLens small dataset.
+2025-07-13 14:07:32,353 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-13 14:07:32,353 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-13 14:07:32,353 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-13 14:07:32,353 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 14:07:32,353 INFO Creating 'imdb' directory...
+2025-07-13 14:07:32,353 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-13 14:07:32,353 INFO Processing file: name.basics.tsv.gz
+2025-07-13 14:07:32,353 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 14:07:32,353 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 14:07:32,353 INFO Processing file: title.akas.tsv.gz
+2025-07-13 14:07:32,353 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 14:07:32,353 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 14:07:32,354 INFO Processing file: title.basics.tsv.gz
+2025-07-13 14:07:32,354 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 14:07:32,354 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 14:07:32,354 INFO Processing file: title.crew.tsv.gz
+2025-07-13 14:07:32,354 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 14:07:32,354 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 14:07:32,354 INFO Processing file: title.episode.tsv.gz
+2025-07-13 14:07:32,354 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 14:07:32,354 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 14:07:32,354 INFO Processing file: title.principals.tsv.gz
+2025-07-13 14:07:32,354 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 14:07:32,354 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 14:07:32,354 INFO Processing file: title.ratings.tsv.gz
+2025-07-13 14:07:32,354 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 14:07:32,354 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 14:07:32,354 INFO === VERIFYING IMDB FILES ===
+2025-07-13 14:07:32,354 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-13 14:07:32,355 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-13 14:07:32,355 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-13 14:07:32,355 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-13 14:07:32,355 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-13 14:07:32,355 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-13 14:07:32,355 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-13 14:07:32,355 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-13 14:07:32,355 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-13 14:07:32,355 INFO \u2713 Data download completed
+2025-07-13 14:07:32,355 INFO Step 3: Loading data to staging...
+2025-07-13 16:30:28,625 INFO === STARTING ETL PIPELINE ===
+2025-07-13 16:30:28,626 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:30:28,627 INFO Step 1: Setting up database and schemas...
+2025-07-13 16:30:28,883 INFO Checked/created database movie_wh.
+2025-07-13 16:30:28,971 INFO Checked/created schema staging.
+2025-07-13 16:30:28,977 INFO Checked/created schema dw.
+2025-07-13 16:30:28,977 INFO \u2713 Database and schemas setup completed
+2025-07-13 16:30:28,979 INFO Step 2: Downloading data...
+2025-07-13 16:30:28,979 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-13 16:30:28,979 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:30:28,979 INFO Checking if ml-latest.zip exists...
+2025-07-13 16:30:28,979 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 16:30:28,979 INFO Checking if ml-latest-small.zip exists...
+2025-07-13 16:30:28,979 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 16:30:28,979 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-13 16:30:28,980 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-13 16:30:28,980 INFO Checking if 'movielens' directory exists...
+2025-07-13 16:30:28,980 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 16:30:28,983 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-13 16:30:28,983 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-13 16:30:40,599 INFO Successfully extracted MovieLens latest dataset.
+2025-07-13 16:30:40,599 INFO Files in movielens directory: ['ml-latest']
+2025-07-13 16:30:40,599 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-13 16:30:40,599 INFO Checking if 'movielens-small' directory exists...
+2025-07-13 16:30:40,600 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 16:30:40,600 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-13 16:30:40,600 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-13 16:30:40,630 INFO Successfully extracted MovieLens small dataset.
+2025-07-13 16:30:40,630 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-13 16:30:40,630 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-13 16:30:40,630 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-13 16:30:40,630 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:30:40,630 INFO Creating 'imdb' directory...
+2025-07-13 16:30:40,631 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-13 16:30:40,631 INFO Processing file: name.basics.tsv.gz
+2025-07-13 16:30:40,631 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 16:30:40,631 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 16:30:40,631 INFO Processing file: title.akas.tsv.gz
+2025-07-13 16:30:40,631 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 16:30:40,631 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 16:30:40,631 INFO Processing file: title.basics.tsv.gz
+2025-07-13 16:30:40,631 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 16:30:40,631 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 16:30:40,632 INFO Processing file: title.crew.tsv.gz
+2025-07-13 16:30:40,632 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 16:30:40,632 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 16:30:40,632 INFO Processing file: title.episode.tsv.gz
+2025-07-13 16:30:40,632 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 16:30:40,632 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 16:30:40,632 INFO Processing file: title.principals.tsv.gz
+2025-07-13 16:30:40,632 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 16:30:40,632 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 16:30:40,632 INFO Processing file: title.ratings.tsv.gz
+2025-07-13 16:30:40,632 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 16:30:40,632 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 16:30:40,632 INFO === VERIFYING IMDB FILES ===
+2025-07-13 16:30:40,632 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-13 16:30:40,632 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-13 16:30:40,632 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-13 16:30:40,632 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-13 16:30:40,633 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-13 16:30:40,633 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-13 16:30:40,633 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-13 16:30:40,633 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-13 16:30:40,633 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-13 16:30:40,633 INFO \u2713 Data download completed
+2025-07-13 16:30:40,633 INFO Step 3: Loading data to staging...
+2025-07-13 16:40:33,162 INFO === STARTING ETL PIPELINE ===
+2025-07-13 16:40:33,163 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:40:33,164 INFO Step 1: Setting up database and schemas...
+2025-07-13 16:40:33,395 INFO Checked/created database movie_wh.
+2025-07-13 16:40:33,486 INFO Checked/created schema staging.
+2025-07-13 16:40:33,496 INFO Checked/created schema dw.
+2025-07-13 16:40:33,497 INFO \u2713 Database and schemas setup completed
+2025-07-13 16:40:33,498 INFO Step 2: Downloading data...
+2025-07-13 16:40:33,499 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-13 16:40:33,499 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:40:33,499 INFO Checking if ml-latest.zip exists...
+2025-07-13 16:40:33,499 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 16:40:33,499 INFO Checking if ml-latest-small.zip exists...
+2025-07-13 16:40:33,500 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 16:40:33,500 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-13 16:40:33,500 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-13 16:40:33,500 INFO Checking if 'movielens' directory exists...
+2025-07-13 16:40:33,500 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 16:40:33,502 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-13 16:40:33,503 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-13 16:40:44,895 INFO Successfully extracted MovieLens latest dataset.
+2025-07-13 16:40:44,896 INFO Files in movielens directory: ['ml-latest']
+2025-07-13 16:40:44,897 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-13 16:40:44,897 INFO Checking if 'movielens-small' directory exists...
+2025-07-13 16:40:44,897 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 16:40:44,898 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-13 16:40:44,898 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-13 16:40:44,945 INFO Successfully extracted MovieLens small dataset.
+2025-07-13 16:40:44,946 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-13 16:40:44,946 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-13 16:40:44,946 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-13 16:40:44,946 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:40:44,946 INFO Creating 'imdb' directory...
+2025-07-13 16:40:44,946 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-13 16:40:44,946 INFO Processing file: name.basics.tsv.gz
+2025-07-13 16:40:44,946 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 16:40:44,947 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 16:40:44,947 INFO Processing file: title.akas.tsv.gz
+2025-07-13 16:40:44,947 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 16:40:44,947 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 16:40:44,947 INFO Processing file: title.basics.tsv.gz
+2025-07-13 16:40:44,947 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 16:40:44,947 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 16:40:44,947 INFO Processing file: title.crew.tsv.gz
+2025-07-13 16:40:44,947 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 16:40:44,947 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 16:40:44,947 INFO Processing file: title.episode.tsv.gz
+2025-07-13 16:40:44,947 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 16:40:44,947 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 16:40:44,947 INFO Processing file: title.principals.tsv.gz
+2025-07-13 16:40:44,947 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 16:40:44,947 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 16:40:44,948 INFO Processing file: title.ratings.tsv.gz
+2025-07-13 16:40:44,948 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 16:40:44,948 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 16:40:44,948 INFO === VERIFYING IMDB FILES ===
+2025-07-13 16:40:44,948 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-13 16:40:44,948 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-13 16:40:44,948 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-13 16:40:44,949 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-13 16:40:44,949 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-13 16:40:44,949 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-13 16:40:44,949 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-13 16:40:44,949 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-13 16:40:44,949 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-13 16:40:44,949 INFO \u2713 Data download completed
+2025-07-13 16:40:44,949 INFO Step 3: Loading data to staging...
+2025-07-13 16:43:21,574 INFO === STARTING ETL PIPELINE ===
+2025-07-13 16:43:21,574 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:43:21,574 INFO Step 1: Setting up database and schemas...
+2025-07-13 16:43:21,735 INFO Checked/created database movie_wh.
+2025-07-13 16:43:21,810 INFO Checked/created schema staging.
+2025-07-13 16:43:21,816 INFO Checked/created schema dw.
+2025-07-13 16:43:21,817 INFO \u2713 Database and schemas setup completed
+2025-07-13 16:43:21,817 INFO Step 2: Downloading data...
+2025-07-13 16:43:21,817 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-13 16:43:21,817 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:43:21,817 INFO Checking if ml-latest.zip exists...
+2025-07-13 16:43:21,817 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 16:43:21,817 INFO Checking if ml-latest-small.zip exists...
+2025-07-13 16:43:21,817 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 16:43:21,817 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-13 16:43:21,817 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-13 16:43:21,817 INFO Checking if 'movielens' directory exists...
+2025-07-13 16:43:21,817 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 16:43:21,820 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-13 16:43:21,820 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-13 16:43:33,152 INFO Successfully extracted MovieLens latest dataset.
+2025-07-13 16:43:33,152 INFO Files in movielens directory: ['ml-latest']
+2025-07-13 16:43:33,153 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-13 16:43:33,153 INFO Checking if 'movielens-small' directory exists...
+2025-07-13 16:43:33,157 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 16:43:33,158 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-13 16:43:33,158 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-13 16:43:33,224 INFO Successfully extracted MovieLens small dataset.
+2025-07-13 16:43:33,225 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-13 16:43:33,226 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-13 16:43:33,226 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-13 16:43:33,226 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:43:33,226 INFO Creating 'imdb' directory...
+2025-07-13 16:43:33,228 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-13 16:43:33,228 INFO Processing file: name.basics.tsv.gz
+2025-07-13 16:43:33,228 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 16:43:33,229 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 16:43:33,229 INFO Processing file: title.akas.tsv.gz
+2025-07-13 16:43:33,230 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 16:43:33,230 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 16:43:33,230 INFO Processing file: title.basics.tsv.gz
+2025-07-13 16:43:33,231 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 16:43:33,232 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 16:43:33,232 INFO Processing file: title.crew.tsv.gz
+2025-07-13 16:43:33,232 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 16:43:33,233 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 16:43:33,233 INFO Processing file: title.episode.tsv.gz
+2025-07-13 16:43:33,233 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 16:43:33,234 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 16:43:33,234 INFO Processing file: title.principals.tsv.gz
+2025-07-13 16:43:33,235 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 16:43:33,235 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 16:43:33,235 INFO Processing file: title.ratings.tsv.gz
+2025-07-13 16:43:33,236 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 16:43:33,236 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 16:43:33,237 INFO === VERIFYING IMDB FILES ===
+2025-07-13 16:43:33,238 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-13 16:43:33,239 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-13 16:43:33,240 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-13 16:43:33,241 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-13 16:43:33,241 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-13 16:43:33,242 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-13 16:43:33,243 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-13 16:43:33,244 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-13 16:43:33,244 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-13 16:43:33,244 INFO \u2713 Data download completed
+2025-07-13 16:43:33,244 INFO Step 3: Loading data to staging...
+2025-07-13 16:52:59,318 INFO === STARTING ETL PIPELINE ===
+2025-07-13 16:52:59,319 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:52:59,319 INFO Step 1: Setting up database and schemas...
+2025-07-13 16:52:59,584 INFO Checked/created database movie_wh.
+2025-07-13 16:52:59,681 INFO Checked/created schema staging.
+2025-07-13 16:52:59,688 INFO Checked/created schema dw.
+2025-07-13 16:52:59,690 INFO \u2713 Database and schemas setup completed
+2025-07-13 16:52:59,690 INFO Step 2: Downloading data...
+2025-07-13 16:52:59,691 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-13 16:52:59,691 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:52:59,691 INFO Checking if ml-latest.zip exists...
+2025-07-13 16:52:59,691 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 16:52:59,691 INFO Checking if ml-latest-small.zip exists...
+2025-07-13 16:52:59,691 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 16:52:59,691 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-13 16:52:59,691 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-13 16:52:59,691 INFO Checking if 'movielens' directory exists...
+2025-07-13 16:52:59,691 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 16:52:59,694 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-13 16:52:59,694 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-13 16:53:11,898 INFO Successfully extracted MovieLens latest dataset.
+2025-07-13 16:53:11,898 INFO Files in movielens directory: ['ml-latest']
+2025-07-13 16:53:11,898 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-13 16:53:11,898 INFO Checking if 'movielens-small' directory exists...
+2025-07-13 16:53:11,899 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 16:53:11,899 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-13 16:53:11,899 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-13 16:53:11,927 INFO Successfully extracted MovieLens small dataset.
+2025-07-13 16:53:11,927 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-13 16:53:11,928 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-13 16:53:11,928 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-13 16:53:11,928 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 16:53:11,928 INFO Creating 'imdb' directory...
+2025-07-13 16:53:11,928 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-13 16:53:11,928 INFO Processing file: name.basics.tsv.gz
+2025-07-13 16:53:11,928 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 16:53:11,928 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 16:53:11,928 INFO Processing file: title.akas.tsv.gz
+2025-07-13 16:53:11,928 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 16:53:11,928 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 16:53:11,928 INFO Processing file: title.basics.tsv.gz
+2025-07-13 16:53:11,928 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 16:53:11,928 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 16:53:11,928 INFO Processing file: title.crew.tsv.gz
+2025-07-13 16:53:11,928 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 16:53:11,928 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 16:53:11,928 INFO Processing file: title.episode.tsv.gz
+2025-07-13 16:53:11,928 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 16:53:11,929 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 16:53:11,929 INFO Processing file: title.principals.tsv.gz
+2025-07-13 16:53:11,929 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 16:53:11,929 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 16:53:11,929 INFO Processing file: title.ratings.tsv.gz
+2025-07-13 16:53:11,929 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 16:53:11,929 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 16:53:11,929 INFO === VERIFYING IMDB FILES ===
+2025-07-13 16:53:11,929 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-13 16:53:11,929 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-13 16:53:11,929 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-13 16:53:11,929 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-13 16:53:11,929 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-13 16:53:11,929 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-13 16:53:11,929 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-13 16:53:11,929 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-13 16:53:11,929 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-13 16:53:11,929 INFO \u2713 Data download completed
+2025-07-13 16:53:11,929 INFO Step 3: Loading data to staging...
+
+2025-07-13 18:32:42,032 INFO === STARTING ETL PIPELINE ===
+2025-07-13 18:32:42,033 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 18:32:42,033 INFO Step 1: Setting up database and schemas...
+2025-07-13 18:32:42,250 INFO Checked/created database movie_wh.
+2025-07-13 18:32:42,351 INFO Checked/created schema staging.
+2025-07-13 18:32:42,359 INFO Checked/created schema dw.
+2025-07-13 18:32:42,360 INFO \u2713 Database and schemas setup completed
+2025-07-13 18:32:42,363 INFO Step 2: Downloading data...
+2025-07-13 18:32:42,363 INFO === STARTING MOVIELENS DOWNLOAD ===
+2025-07-13 18:32:42,363 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 18:32:42,363 INFO Checking if ml-latest.zip exists...
+2025-07-13 18:32:42,364 INFO File ml-latest.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 18:32:42,364 INFO Checking if ml-latest-small.zip exists...
+2025-07-13 18:32:42,364 INFO File ml-latest-small.zip already exists at C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 18:32:42,365 INFO === EXTRACTING MOVIELENS DATASETS ===
+2025-07-13 18:32:42,365 INFO Extracting ml-latest.zip to 'movielens' directory...
+2025-07-13 18:32:42,365 INFO Checking if 'movielens' directory exists...
+2025-07-13 18:32:42,365 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest.zip
+2025-07-13 18:32:42,372 INFO ZIP file contains: ['ml-latest/', 'ml-latest/tags.csv', 'ml-latest/links.csv', 'ml-latest/README.txt', 'ml-latest/ratings.csv', 'ml-latest/genome-tags.csv', 'ml-latest/genome-scores.csv', 'ml-latest/movies.csv']
+2025-07-13 18:32:42,373 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens
+2025-07-13 18:32:52,472 INFO Successfully extracted MovieLens latest dataset.
+2025-07-13 18:32:52,472 INFO Files in movielens directory: ['ml-latest']
+2025-07-13 18:32:52,473 INFO Extracting ml-latest-small.zip to 'movielens-small' directory...
+2025-07-13 18:32:52,473 INFO Checking if 'movielens-small' directory exists...
+2025-07-13 18:32:52,473 INFO Opening ZIP file: C:\Users\asoye\Documents\Projects\movie_overload\ml-latest-small.zip
+2025-07-13 18:32:52,473 INFO ZIP file contains: ['ml-latest-small/', 'ml-latest-small/links.csv', 'ml-latest-small/tags.csv', 'ml-latest-small/ratings.csv', 'ml-latest-small/README.txt', 'ml-latest-small/movies.csv']
+2025-07-13 18:32:52,474 INFO Extracting to: C:\Users\asoye\Documents\Projects\movie_overload\movielens-small
+2025-07-13 18:32:52,497 INFO Successfully extracted MovieLens small dataset.
+2025-07-13 18:32:52,498 INFO Files in movielens-small directory: ['ml-latest-small']
+2025-07-13 18:32:52,498 INFO === MOVIELENS DOWNLOAD COMPLETED ===
+2025-07-13 18:32:52,498 INFO === STARTING IMDB DOWNLOAD ===
+2025-07-13 18:32:52,498 INFO Current working directory: C:\Users\asoye\Documents\Projects\movie_overload
+2025-07-13 18:32:52,498 INFO Creating 'imdb' directory...
+2025-07-13 18:32:52,498 INFO IMDB directory created/verified at: C:\Users\asoye\Documents\Projects\movie_overload\imdb
+2025-07-13 18:32:52,498 INFO Processing file: name.basics.tsv.gz
+2025-07-13 18:32:52,498 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 18:32:52,499 INFO File name.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\name.basics.tsv.gz
+2025-07-13 18:32:52,499 INFO Processing file: title.akas.tsv.gz
+2025-07-13 18:32:52,499 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 18:32:52,500 INFO File title.akas.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.akas.tsv.gz
+2025-07-13 18:32:52,500 INFO Processing file: title.basics.tsv.gz
+2025-07-13 18:32:52,500 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 18:32:52,500 INFO File title.basics.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.basics.tsv.gz
+2025-07-13 18:32:52,500 INFO Processing file: title.crew.tsv.gz
+2025-07-13 18:32:52,500 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 18:32:52,501 INFO File title.crew.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.crew.tsv.gz
+2025-07-13 18:32:52,501 INFO Processing file: title.episode.tsv.gz
+2025-07-13 18:32:52,501 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 18:32:52,501 INFO File title.episode.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.episode.tsv.gz
+2025-07-13 18:32:52,501 INFO Processing file: title.principals.tsv.gz
+2025-07-13 18:32:52,501 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 18:32:52,502 INFO File title.principals.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.principals.tsv.gz
+2025-07-13 18:32:52,502 INFO Processing file: title.ratings.tsv.gz
+2025-07-13 18:32:52,502 INFO Local path: C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 18:32:52,502 INFO File title.ratings.tsv.gz already exists at C:\Users\asoye\Documents\Projects\movie_overload\imdb\title.ratings.tsv.gz
+2025-07-13 18:32:52,502 INFO === VERIFYING IMDB FILES ===
+2025-07-13 18:32:52,502 INFO Files in imdb directory: ['name.basics.tsv.gz', 'title.akas.tsv.gz', 'title.basics.tsv.gz', 'title.crew.tsv.gz', 'title.episode.tsv.gz', 'title.principals.tsv.gz', 'title.ratings.tsv.gz']
+2025-07-13 18:32:52,502 INFO \u2713 name.basics.tsv.gz: 287290980 bytes
+2025-07-13 18:32:52,503 INFO \u2713 title.akas.tsv.gz: 457053236 bytes
+2025-07-13 18:32:52,503 INFO \u2713 title.basics.tsv.gz: 208140440 bytes
+2025-07-13 18:32:52,503 INFO \u2713 title.crew.tsv.gz: 76935430 bytes
+2025-07-13 18:32:52,503 INFO \u2713 title.episode.tsv.gz: 50006100 bytes
+2025-07-13 18:32:52,503 INFO \u2713 title.principals.tsv.gz: 723199350 bytes
+2025-07-13 18:32:52,503 INFO \u2713 title.ratings.tsv.gz: 7995171 bytes
+2025-07-13 18:32:52,503 INFO === IMDB DOWNLOAD COMPLETED ===
+2025-07-13 18:32:52,503 INFO \u2713 Data download completed
+2025-07-13 18:32:52,503 INFO Step 3: Loading data to staging...

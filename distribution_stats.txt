@@ -1,0 +1,27 @@
+Rating distribution stats:
+  summary              rating
+0   count            33832162
+1    mean    3.54254040873888
+2  stddev  1.0639586178664844
+3     min                 0.5
+4     max                 5.0
+
+Rating normality test: W=0.9294, p=0.0000 (not normal)
+Budget distribution stats:
+  summary                budget
+0   count                 10367
+1    mean  2.0266758294781517E7
+2  stddev    3.73178623947418E7
+3     min                   1.0
+4     max               4.654E8
+
+Budget (log-transformed) normality test: W=0.8670, p=0.0000 (not normal)
+Release year distribution stats:
+  summary       release year
+0   count              50017
+1    mean  2012.900493832097
+2  stddev  6.124272447228714
+3     min               1951
+4     max               2025
+
+Release year normality test: W=0.9598, p=0.0000 (not normal)
