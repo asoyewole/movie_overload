@@ -1,4 +1,6 @@
-Cost-Aware Movie Recommendation SystemThis repository contains the implementation of a cost-aware movie recommendation system that integrates production budgets into traditional collaborative filtering models. Built using the MovieLens 25M dataset and The Movie Database (TMDb) budget data, the project explores the impact of incorporating budget information into recommendation algorithms, with a focus on predictive accuracy and fairness across budget tiers. The system employs both Alternating Least Squares (ALS) and Neural Collaborative Filtering (NCF) models, implemented with Apache Spark and TensorFlow, respectively.Table of ContentsProject Overview (#project-overview)
+#Cost-Aware Movie Recommendation System
+
+This repository contains the implementation of a cost-aware movie recommendation system that integrates production budgets into traditional collaborative filtering models. Built using the MovieLens 25M dataset and The Movie Database (TMDb) budget data, the project explores the impact of incorporating budget information into recommendation algorithms, with a focus on predictive accuracy and fairness across budget tiers. The system employs both Alternating Least Squares (ALS) and Neural Collaborative Filtering (NCF) models, implemented with Apache Spark and TensorFlow, respectively.Table of ContentsProject Overview (#project-overview)
 Features (#features)
 Dataset (#dataset)
 Requirements (#requirements)
@@ -149,5 +151,6 @@ Open a pull request with a detailed description.
 LicenseThis project is licensed under the MIT License. See the LICENSE file for details.ContactFor questions or collaboration, reach out via:
 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/asoyewole/)
 GitHub: https://github.com/asoyewole/
+
 
 
